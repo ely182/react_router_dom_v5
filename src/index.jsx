@@ -12,7 +12,7 @@ ReactDOM.render(
     <BrowserRouter>
       <Menu />
       <Switch>
-        <Route path="/abc" component={Abc} />
+        <Route path="/abc/:slug" component={Abc} />
         <Route path="/" component={App} exact />
         <Route path="*" component={Page404} />
       </Switch>
